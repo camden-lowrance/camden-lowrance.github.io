@@ -1,15 +1,15 @@
 :root {
-  --bg: #f4efe5;
-  --surface: rgba(255, 252, 246, 0.82);
-  --surface-strong: #fffaf0;
-  --ink: #1d2825;
-  --muted: #5d665f;
-  --accent: #ae5a2d;
-  --accent-deep: #6f3415;
-  --leaf: #1c4d40;
-  --shadow: 0 24px 60px rgba(39, 33, 18, 0.12);
-  --radius-xl: 32px;
-  --radius-lg: 24px;
+  --bg: #f5f7fa;
+  --surface: rgba(255, 255, 255, 0.9);
+  --surface-strong: #ffffff;
+  --ink: #18212b;
+  --muted: #596473;
+  --accent: #2b5c73;
+  --accent-deep: #21475b;
+  --leaf: #1f5a4c;
+  --shadow: 0 18px 42px rgba(24, 33, 43, 0.08);
+  --radius-xl: 28px;
+  --radius-lg: 20px;
 }
 
 html {
@@ -22,12 +22,12 @@ html {
 
 body {
   margin: 0;
-  font-family: "Space Grotesk", sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
   color: var(--ink);
   background:
-    radial-gradient(circle at top left, rgba(191, 143, 63, 0.18), transparent 28%),
-    radial-gradient(circle at 85% 10%, rgba(28, 77, 64, 0.18), transparent 24%),
-    linear-gradient(180deg, #f8f2e8 0%, var(--bg) 42%, #efe5d4 100%);
+    radial-gradient(circle at top left, rgba(43, 92, 115, 0.08), transparent 30%),
+    radial-gradient(circle at 85% 10%, rgba(31, 90, 76, 0.08), transparent 24%),
+    linear-gradient(180deg, #fafbfd 0%, var(--bg) 48%, #eef2f6 100%);
 }
 
 img {
@@ -48,7 +48,7 @@ a {
   justify-content: space-between;
   gap: 1rem;
   padding: 1.1rem clamp(1.25rem, 3vw, 3rem);
-  background: rgba(244, 239, 229, 0.78);
+  background: rgba(245, 247, 250, 0.88);
   backdrop-filter: blur(18px);
   border-bottom: 1px solid rgba(29, 40, 37, 0.08);
 }
@@ -61,9 +61,9 @@ a {
 }
 
 .brand {
-  font-size: 1rem;
+  font-size: 0.96rem;
   font-weight: 700;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.04em;
   text-transform: uppercase;
 }
 
@@ -109,26 +109,31 @@ main {
 .timeline-meta {
   margin: 0 0 0.9rem;
   color: var(--accent-deep);
-  font-size: 0.82rem;
-  font-weight: 700;
-  letter-spacing: 0.14em;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
 }
 
 .hero h1,
-.section h2,
+.section h2 {
+  margin: 0;
+  font-family: "Source Serif 4", serif;
+  line-height: 1.02;
+}
+
 .timeline h3,
 .fit-card h3,
 .feature-card h3,
 .story-card h3 {
   margin: 0;
-  line-height: 0.98;
+  line-height: 1.08;
 }
 
 .hero h1 {
-  max-width: 12ch;
-  font-size: clamp(3.1rem, 8vw, 6.3rem);
-  letter-spacing: -0.06em;
+  max-width: 12.5ch;
+  font-size: clamp(3rem, 7vw, 5.2rem);
+  letter-spacing: -0.045em;
 }
 
 .lede,
@@ -168,7 +173,7 @@ main {
   align-items: center;
   justify-content: center;
   padding: 0.9rem 1.3rem;
-  border-radius: 999px;
+  border-radius: 14px;
   font-size: 0.95rem;
   font-weight: 700;
   transition: transform 160ms ease, box-shadow 160ms ease, background 160ms ease;
@@ -181,13 +186,13 @@ main {
 
 .button-primary {
   color: #fff;
-  background: linear-gradient(135deg, var(--accent) 0%, #c06e3f 100%);
-  box-shadow: 0 14px 32px rgba(174, 90, 45, 0.25);
+  background: var(--accent-deep);
+  box-shadow: 0 12px 24px rgba(33, 71, 91, 0.16);
 }
 
 .button-secondary {
-  background: rgba(255, 250, 240, 0.88);
-  border: 1px solid rgba(29, 40, 37, 0.1);
+  background: rgba(255, 255, 255, 0.84);
+  border: 1px solid rgba(24, 33, 43, 0.1);
 }
 
 .hero-highlights,
@@ -288,10 +293,10 @@ main {
 
 .metric-value {
   margin: 0;
-  font-family: "Source Serif 4", serif;
-  font-size: clamp(2.2rem, 4vw, 3.2rem);
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: clamp(2rem, 4vw, 2.8rem);
   font-weight: 600;
-  color: var(--leaf);
+  color: var(--accent-deep);
 }
 
 .metric-label {
@@ -315,8 +320,8 @@ main {
 
 .section h2 {
   max-width: 15ch;
-  font-size: clamp(2.2rem, 5vw, 4rem);
-  letter-spacing: -0.05em;
+  font-size: clamp(2.1rem, 4.6vw, 3.6rem);
+  letter-spacing: -0.035em;
 }
 
 .story-grid,
@@ -336,8 +341,8 @@ main {
 .timeline-item h3,
 .fit-card h3 {
   margin-bottom: 0.8rem;
-  font-size: 1.35rem;
-  letter-spacing: -0.03em;
+  font-size: 1.26rem;
+  letter-spacing: -0.02em;
 }
 
 .story-card p:last-child,
@@ -403,8 +408,8 @@ main {
 .contact-panel {
   padding: clamp(1.5rem, 4vw, 2.4rem);
   background:
-    linear-gradient(135deg, rgba(28, 77, 64, 0.96), rgba(20, 36, 33, 0.96)),
-    var(--leaf);
+    linear-gradient(135deg, rgba(28, 53, 71, 0.97), rgba(20, 36, 47, 0.97)),
+    var(--accent-deep);
   color: #f6f1e6;
 }
 
@@ -437,11 +442,9 @@ main {
 @keyframes rise {
   from {
     opacity: 0;
-    transform: translateY(16px);
   }
   to {
     opacity: 1;
-    transform: translateY(0);
   }
 }
 
