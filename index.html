@@ -12,10 +12,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Space+Grotesk:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/resume.css" />
+    <link rel="stylesheet" href="css/resume.css?v=20260411-dark-map-1" />
   </head>
   <body>
     <header class="site-header">
@@ -32,22 +32,17 @@
     <main id="top">
       <section class="hero">
         <div class="hero-copy">
-          <p class="eyebrow">Geospatial, data, and backend systems engineer</p>
-          <h1>
-            I build production software for geospatial, agriculture, and real
-            estate problems.
-          </h1>
+          <p class="eyebrow">Indianapolis, IN / backend, data, geospatial</p>
+          <h1>I build data systems for places, machines, and operating businesses.</h1>
           <p class="lede">
-            I design and operate data-intensive systems, APIs, and
-            decision-support tools. My work spans cloud-native data pipelines,
-            geospatial processing, integration workflows, and software built
-            for practical operating businesses.
+            I work across backend services, geospatial processing, ETL, and
+            decision-support software. Most of my recent work is in precision
+            agriculture, but I also build independent tools in agriculture and
+            real estate.
           </p>
           <p class="lede lede-secondary">
-            I currently work as a Senior Geospatial Developer at Beck's Hybrids.
-            Outside of that role, I build independent software in agriculture
-            and real estate, and I run a private real estate investment
-            business.
+            My strongest work sits where data scale, spatial systems, and
+            production reliability meet.
           </p>
           <div class="hero-actions">
             <a class="button button-primary" href="mailto:camdenlowrance@gmail.com"
@@ -69,95 +64,79 @@
             >
           </div>
           <ul class="hero-highlights">
-            <li>1,460 PRs authored across 4 FARMserver repositories</li>
-            <li>500 billion rows processed in production ag workflows</li>
+            <li>500 billion rows processed across production agriculture workflows</li>
+            <li>1,460 pull requests across backend, API, database, and UI repos</li>
             <li>2 live independent applications in agriculture and real estate</li>
-            <li>Backend, data, geospatial, and integration work</li>
           </ul>
         </div>
 
-        <aside class="hero-panel">
-          <figure class="portrait-frame">
-            <img
-              src="img/portrait.JPG"
-              alt="Portrait of Camden Lowrance"
-              class="portrait"
-            />
-          </figure>
-          <div class="panel-card">
-            <p class="panel-label">Current role</p>
-            <p class="panel-text">
-              Senior Geospatial Developer at Beck's Hybrids, focused on
-              controller-data systems, cloud-native geospatial processing,
-              partner integrations, and the data pipelines that keep FARMserver
-              usable.
-            </p>
-            <ul class="tag-list">
-              <li>Python</li>
-              <li>Kubernetes</li>
-              <li>GeoParquet</li>
-              <li>COG</li>
-              <li>SQL Server</li>
-              <li>Celery</li>
-              <li>DuckDB</li>
-              <li>S3</li>
-            </ul>
+        <aside class="hero-map" aria-label="Profile map">
+          <div class="map-shell">
+            <p class="map-label">System map</p>
+            <div class="map-center">
+              <p class="map-value">500B</p>
+              <p class="map-copy">
+                Production rows handled through controller-data processing,
+                geospatial workflows, APIs, and operating software.
+              </p>
+            </div>
+            <div class="map-marker marker-a">Geospatial systems</div>
+            <div class="map-marker marker-b">Backend platform</div>
+            <div class="map-marker marker-c">Precision ag data</div>
+            <div class="map-marker marker-d">Real estate tools</div>
           </div>
         </aside>
       </section>
 
-      <section class="metrics" aria-label="Impact metrics">
-        <article class="metric-card">
-          <p class="metric-value">4</p>
-          <p class="metric-label">repositories touched across backend, DB, API, and UI</p>
+      <section class="signal-strip" aria-label="Key facts">
+        <article class="signal-item">
+          <p class="signal-value">2020 - now</p>
+          <p class="signal-label">Senior Geospatial Developer at Beck's Hybrids</p>
         </article>
-        <article class="metric-card">
-          <p class="metric-value">500B</p>
-          <p class="metric-label">rows handled in production agriculture workflows</p>
+        <article class="signal-item">
+          <p class="signal-value">400+</p>
+          <p class="signal-label">Jira tickets delivered across production systems</p>
         </article>
-        <article class="metric-card">
-          <p class="metric-value">2</p>
-          <p class="metric-label">live independent applications in agriculture and real estate</p>
+        <article class="signal-item">
+          <p class="signal-value">Open source</p>
+          <p class="signal-label">Python, GeoParquet, COG, Kubernetes, DuckDB, S3</p>
         </article>
-        <article class="metric-card">
-          <p class="metric-value">400+</p>
-          <p class="metric-label">Jira tickets delivered across production systems</p>
+        <article class="signal-item">
+          <p class="signal-value">Operator view</p>
+          <p class="signal-label">Private real estate investing and product work outside my day job</p>
         </article>
       </section>
 
       <section class="section" id="current-role">
         <div class="section-heading">
           <p class="section-kicker">Current Role</p>
-          <h2>Beck's Hybrids and the core FARMserver data path.</h2>
+          <h2>Beck's Hybrids</h2>
         </div>
-        <div class="story-grid">
-          <article class="story-card">
-            <h3>Controller-Data Rewrite</h3>
+        <div class="current-grid">
+          <article class="feature-panel feature-panel-lead">
+            <p class="card-tag">Core data path</p>
+            <h3>Built and operate the controller-data rewrite.</h3>
             <p>
-              The previous path relied on Windows servers and proprietary
-              ArcGIS workflows. I rebuilt that core processing path as an
-              open-source Python system designed for Kubernetes-native,
+              I built the current controller-data system from scratch. It
+              replaced Windows-server and proprietary ArcGIS dependencies with
+              an open-source Python architecture built for Kubernetes-native,
               cloud-native operation.
             </p>
             <p>
-              This is the pipeline that transforms harvest, planting,
-              application, tillage, and other machine-generated field
-              operations into the core farm record used across the product.
+              This is the processing path for the machine data that makes up
+              the farm record: harvest, planting, application, tillage, and
+              related field operations.
             </p>
           </article>
-          <article class="story-card">
-            <h3>Scale and Data Design</h3>
-            <p>
-              The pipeline handles high-volume, high-dimensional precision
-              agriculture data in production. My work has centered on making it
-              scalable, reliable, and maintainable under real operating
-              pressure.
-            </p>
-            <p>
-              The stack uses open geospatial and analytical formats suited for
-              cloud processing, including GeoParquet, Parquet, cloud optimized
-              GeoTIFFs, shapefiles, GeoJSON, and object storage patterns.
-            </p>
+          <article class="feature-panel">
+            <p class="card-tag">What I own</p>
+            <h3>Daily production ownership</h3>
+            <ul class="detail-list">
+              <li>controller-data ingestion and ETL behavior</li>
+              <li>geospatial processing and storage patterns</li>
+              <li>async task execution and operational reliability</li>
+              <li>cleanup and modernization of older data paths</li>
+            </ul>
           </article>
         </div>
       </section>
@@ -165,43 +144,44 @@
       <section class="section" id="work">
         <div class="section-heading">
           <p class="section-kicker">Selected Work</p>
-          <h2>Recent systems and delivery areas</h2>
+          <h2>Recent delivery areas</h2>
         </div>
-        <div class="card-grid">
-          <article class="feature-card">
-            <p class="card-tag">Core platform</p>
-            <h3>Daily ownership of the controller-data pipeline</h3>
+        <div class="work-grid">
+          <article class="work-item">
+            <p class="card-tag">Scale</p>
+            <h3>Cloud-native precision agriculture processing</h3>
             <p>
-              I manage the core FARMserver data-processing path day to day, from
-              async task execution and ETL behavior to geospatial processing,
-              storage, cleanup, and operational reliability.
+              Built for high-volume, high-dimensional precision agriculture
+              data, using storage and geospatial formats suited for cloud
+              processing, including GeoParquet, Parquet, cloud optimized
+              GeoTIFFs, shapefiles, GeoJSON, and object storage.
             </p>
           </article>
-          <article class="feature-card">
+          <article class="work-item">
             <p class="card-tag">Integrations</p>
             <h3>Leaf and MyJohnDeere Direct</h3>
             <p>
-              Delivered cross-repo integrations covering database schema, API
-              support, OAuth2, shapefile ETL, backend services, and frontend
-              import flows.
+              Delivered cross-repo integration work covering database schema,
+              API support, OAuth2, shapefile ETL, backend services, and
+              frontend import flows.
             </p>
           </article>
-          <article class="feature-card">
+          <article class="work-item">
             <p class="card-tag">Geospatial</p>
             <h3>Soil and spatial processing</h3>
             <p>
-              Built POLARIS soil-data flows using cloud optimized GeoTIFF
-              conversion and object storage, plus geometry-heavy field workflows
-              such as swath-based polygon generation.
+              Built POLARIS soil-data flows with cloud optimized GeoTIFF
+              conversion and object storage, plus geometry-heavy workflows such
+              as swath-based polygon generation.
             </p>
           </article>
-          <article class="feature-card">
+          <article class="work-item">
             <p class="card-tag">Platform</p>
-            <h3>Build and cleanup work</h3>
+            <h3>Modernization and platform cleanup</h3>
             <p>
               Migrated the main Python environment from Conda to Pixi and
-              contributed to the cleanup and stabilization work needed to retire
-              older controller-data paths.
+              contributed to the cleanup and stabilization work needed to
+              retire older controller-data paths.
             </p>
           </article>
         </div>
@@ -210,53 +190,57 @@
       <section class="section" id="projects">
         <div class="section-heading">
           <p class="section-kicker">Independent Projects</p>
-          <h2>Selected independent projects</h2>
+          <h2>Selected project work</h2>
         </div>
-        <div class="card-grid projects-grid">
-          <article class="feature-card">
-            <p class="card-tag">Agriculture</p>
-            <h3>EZZone</h3>
-            <p>
-              Agricultural Management Zone Generator for turning uploaded field
-              data into management zones. Supports common geospatial formats and
-              automated processing for agricultural analysis workflows.
-            </p>
-            <p class="card-link">
-              <a
-                href="https://ezzone-production.up.railway.app/"
-                target="_blank"
-                rel="noreferrer"
-                >Open EZZone</a
-              >
-            </p>
-          </article>
-          <article class="feature-card">
-            <p class="card-tag">Real estate</p>
-            <h3>REI Prospector</h3>
-            <p>
-              Real estate analysis app for investor workflows with smart
-              filters, interactive map exploration, favorites, bid tracking,
-              and a demo-ready property dataset.
-            </p>
-            <p class="card-link">
-              <a
-                href="https://reiprospector-production.up.railway.app/demo-welcome"
-                target="_blank"
-                rel="noreferrer"
-                >Open REI Prospector demo</a
-              >
-            </p>
-          </article>
-          <article class="feature-card">
-            <p class="card-tag">Operating business</p>
-            <h3>Private real estate investing</h3>
-            <p>
-              I also run a private real estate investment business. That work
-              shapes the way I think about acquisition workflows, property
-              analysis, underwriting, redevelopment, and the practical software
-              needed to support operations.
-            </p>
-            <p class="card-note">Not a public product site.</p>
+        <div class="project-grid">
+          <a
+            class="project-card"
+            href="https://ezzone-production.up.railway.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div class="project-image">
+              <img src="img/ezzone.png" alt="EZZone application screenshot" />
+            </div>
+            <div class="project-copy">
+              <p class="card-tag">Agriculture</p>
+              <h3>EZZone</h3>
+              <p>
+                Agricultural management-zone generator for turning uploaded
+                field data into usable zone outputs.
+              </p>
+            </div>
+          </a>
+          <a
+            class="project-card"
+            href="https://reiprospector-production.up.railway.app/demo-welcome"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div class="project-image">
+              <img src="img/indic_exporer.png" alt="REI Prospector application screenshot" />
+            </div>
+            <div class="project-copy">
+              <p class="card-tag">Real estate</p>
+              <h3>REI Prospector</h3>
+              <p>
+                Real estate analysis app for investor workflows with map
+                exploration, filters, favorites, bid tracking, and a demo-ready
+                dataset.
+              </p>
+            </div>
+          </a>
+          <article class="project-card project-note">
+            <div class="project-copy">
+              <p class="card-tag">Operating business</p>
+              <h3>Private real estate investing</h3>
+              <p>
+                I also run a private real estate investment business. That work
+                shapes how I think about acquisition workflows, underwriting,
+                redevelopment, and software that supports operations instead of
+                demos.
+              </p>
+            </div>
           </article>
         </div>
       </section>
@@ -273,8 +257,7 @@
               <h3>Beck's Hybrids</h3>
               <p>
                 Senior Geospatial Developer focused on controller data, ETL,
-                geospatial processing, integrations, and cross-repo delivery for
-                FARMserver.
+                geospatial processing, integrations, and cross-repo delivery.
               </p>
             </article>
             <article class="timeline-item">
@@ -289,9 +272,8 @@
               <p class="timeline-meta">Current</p>
               <h3>Private real estate investing</h3>
               <p>
-                Operate a private real estate investment business alongside my
-                engineering work, with active interest in acquisition,
-                redevelopment, and software for property analysis.
+                Run a private real estate investment business alongside my
+                engineering work.
               </p>
             </article>
             <article class="timeline-item">
@@ -314,8 +296,8 @@
             <article class="fit-card">
               <h3>Backend platform</h3>
               <p>
-                Python services, async processing, SQL-backed workflows, system
-                cleanup, and production data-path ownership.
+                Python services, async processing, SQL-backed workflows, and
+                production data-path ownership.
               </p>
             </article>
             <article class="fit-card">
@@ -345,30 +327,33 @@
 
       <section class="section contact-section" id="contact">
         <div class="contact-panel">
-          <p class="section-kicker">Contact</p>
-          <h2>Professional profile and selected projects.</h2>
-          <p class="contact-copy">
-            I am most relevant for backend platform, data platform, geospatial,
-            and integration roles. I also build independent software in
-            agriculture and real estate. If you want the current resume or a
-            tailored version for a role, email me.
-          </p>
-          <div class="contact-links">
-            <a href="mailto:camdenlowrance@gmail.com">camdenlowrance@gmail.com</a>
-            <a
-              href="https://github.com/camden-lowrance"
-              target="_blank"
-              rel="noreferrer"
-              >github.com/camden-lowrance</a
-            >
-            <a
-              href="https://www.linkedin.com/in/camden-lowrance/"
-              target="_blank"
-              rel="noreferrer"
-              >linkedin.com/in/camden-lowrance</a
-            >
+          <div>
+            <p class="section-kicker">Contact</p>
+            <h2>Professional profile, current resume, and selected work.</h2>
           </div>
-          <p class="footnote">Indianapolis, IN · open to remote · updated April 2026</p>
+          <div class="contact-content">
+            <p class="contact-copy">
+              I am most relevant for backend platform, data platform,
+              geospatial, and integration roles. If you want the current resume
+              or a tailored version for a role, email me.
+            </p>
+            <div class="contact-links">
+              <a href="mailto:camdenlowrance@gmail.com">camdenlowrance@gmail.com</a>
+              <a
+                href="https://github.com/camden-lowrance"
+                target="_blank"
+                rel="noreferrer"
+                >github.com/camden-lowrance</a
+              >
+              <a
+                href="https://www.linkedin.com/in/camden-lowrance/"
+                target="_blank"
+                rel="noreferrer"
+                >linkedin.com/in/camden-lowrance</a
+              >
+            </div>
+            <p class="footnote">Indianapolis, IN / open to remote / updated April 2026</p>
+          </div>
         </div>
       </section>
     </main>
