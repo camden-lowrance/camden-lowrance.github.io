@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Camden Lowrance is a geospatial software engineer building location-based systems across farm data, geospatial processing, and applied data products."
+      content="Camden Lowrance is a senior software engineer building production farm data, web API, async processing, and geospatial systems."
     />
     <meta name="author" content="Camden Lowrance" />
-    <title>Camden Lowrance | Geospatial Software Engineer</title>
-    <meta property="og:title" content="Camden Lowrance | Geospatial Software Engineer" />
+    <title>Camden Lowrance | Senior Software Engineer</title>
+    <meta property="og:title" content="Camden Lowrance | Senior Software Engineer" />
     <meta
       property="og:description"
-      content="Building location-based systems across farm data, geospatial processing, and applied data products."
+      content="Building production farm data, web API, async processing, and geospatial systems."
     />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://camden-lowrance.github.io/" />
@@ -23,18 +23,18 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta
       name="twitter:title"
-      content="Camden Lowrance | Geospatial Software Engineer"
+      content="Camden Lowrance | Senior Software Engineer"
     />
     <meta
       name="twitter:description"
-      content="Building location-based systems across farm data, geospatial processing, and applied data products."
+      content="Building production farm data, web API, async processing, and geospatial systems."
     />
     <meta
       name="twitter:image"
       content="https://camden-lowrance.github.io/img/social-preview.svg"
     />
     <link rel="icon" type="image/svg+xml" href="img/favicon.svg" />
-    <link rel="stylesheet" href="css/resume.css?v=20260411-route-map-3" />
+    <link rel="stylesheet" href="css/resume.css?v=20260411-route-map-4" />
   </head>
   <body>
     <header class="site-header">
@@ -53,28 +53,29 @@
           <a href="#background"><span class="legend-index">04</span><span>Background</span></a>
           <a href="#contact"><span class="legend-index">05</span><span>Contact</span></a>
         </nav>
-        <p class="legend-note">Location connects my engineering work in farm data, geospatial systems, and selected applied projects.</p>
+        <p class="legend-note">Production software across farm data, web APIs, async processing, and geospatial systems.</p>
       </aside>
 
       <div class="route-flow">
         <section class="route-origin" id="origin">
           <div class="route-pin route-pin-origin" aria-hidden="true">00</div>
           <p class="stop-kicker">Origin</p>
-          <h1>Location is the thread through my work.</h1>
+          <h1>Turning location-based data into operational clarity.</h1>
           <p class="lede">
-            I build software where spatial data, machines, and operations meet.
-            That shows up in three places: production farm data systems at
-            Beck's Hybrids, geospatial agriculture workflows, and selected
-            map-driven applications.
+            I build production software for farm data, web APIs,
+            asynchronous processing, and geospatial workflows. Most of that
+            work happens at Beck's Hybrids, where I build and operate core
+            systems.
           </p>
           <p class="lede">
-            Across all three, the job is the same: turn location-based data
-            into something reliable enough to operate on.
+            I work across synchronous Flask APIs, Celery workers, large farm
+            data pipelines, and the storage and processing layers that keep
+            spatial data usable at scale.
           </p>
           <ul class="proof-list">
             <li>
               <span class="proof-value">&gt;500 billion</span>
-              <span class="proof-label">rows processed across production farm data workflows</span>
+              <span class="proof-label">rows of production farm data processed</span>
             </li>
             <li>
               <span class="proof-value">&gt;1,500</span>
@@ -82,7 +83,7 @@
             </li>
             <li>
               <span class="proof-value">multiple live apps</span>
-              <span class="proof-label">applied products built outside my main role</span>
+              <span class="proof-label">production apps built outside my main role</span>
             </li>
           </ul>
           <div class="stack-block">
@@ -97,6 +98,7 @@
               <li>SQL Server</li>
               <li>S3</li>
               <li>Celery</li>
+              <li>Flask</li>
               <li>Kubernetes</li>
               <li>FastAPI</li>
               <li>React</li>
@@ -110,25 +112,32 @@
             <p class="stop-kicker">Current Role</p>
             <h2>Beck's Hybrids</h2>
             <p>
-              I am a Senior Geospatial Developer at Beck's. I built the current
-              farm data pipeline from scratch and manage it day to day.
+              I am a Senior Software Engineer at Beck's. I built the current
+              farm data pipeline from scratch and I still maintain it day to day.
             </p>
             <p>
               It replaced Windows servers and proprietary ArcGIS tooling with
-              an open-source Python system built for Kubernetes-native,
+              open-source Python services built for Kubernetes-native,
               cloud-native operation.
             </p>
             <p>
+              I maintain both synchronous web APIs and asynchronous worker
+              systems for farm data and geospatial processing, including Flask
+              HTTP services, Celery jobs, and the related data delivery
+              endpoints.
+            </p>
+            <p>
               If the farm data is wrong or delayed, the rest of the product has
-              nothing solid to build on. The pipeline feeds the farm record
-              inside FARMserver and covers harvest, planting, application,
-              tillage, and other machine-generated field operations.
+              nothing solid to build on. This is core infrastructure for the
+              farm record inside FARMserver, including harvest, planting,
+              application, tillage, and other machine-generated field
+              operations.
             </p>
             <ul class="detail-list">
               <li>farm data ingestion and ETL behavior</li>
-              <li>geospatial processing and storage formats</li>
-              <li>async task execution and operational reliability</li>
-              <li>modernization and cleanup of older data paths</li>
+              <li>synchronous Flask API services and geospatial data delivery</li>
+              <li>asynchronous Celery workers and long-running processing</li>
+              <li>storage formats, reliability, and modernization of older paths</li>
             </ul>
           </div>
         </section>
@@ -140,12 +149,24 @@
             <h2>Recent delivery areas</h2>
             <div class="thread-list">
               <article class="thread-item">
-                <p class="thread-label">Farm data pipeline</p>
+                <p class="thread-label">Core pipeline</p>
                 <div>
                   <h3>Production ownership</h3>
                   <p>
                     I own the production path from inbound files through
                     processing, storage, cleanup, and issue response.
+                  </p>
+                </div>
+              </article>
+              <article class="thread-item">
+                <p class="thread-label">APIs and workers</p>
+                <div>
+                  <h3>Flask and Celery services</h3>
+                  <p>
+                    I maintain synchronous HTTP APIs and asynchronous job
+                    pipelines for farm and geospatial data, including API
+                    endpoints, middleware, long-running jobs, and data delivery
+                    services.
                   </p>
                 </div>
               </article>
@@ -161,24 +182,14 @@
                 </div>
               </article>
               <article class="thread-item">
-                <p class="thread-label">Integrations</p>
+                <p class="thread-label">Integrations and platform</p>
                 <div>
-                  <h3>Leaf and MyJohnDeere Direct</h3>
+                  <h3>Cross-repo delivery</h3>
                   <p>
-                    I delivered cross-repo integration work across database
-                    schema, API support, OAuth2, shapefile ETL, backend
-                    services, and frontend import flows.
-                  </p>
-                </div>
-              </article>
-              <article class="thread-item">
-                <p class="thread-label">Platform work</p>
-                <div>
-                  <h3>Modernization and cleanup</h3>
-                  <p>
-                    I migrated the main Python environment from Conda to Pixi
-                    and helped stabilize older farm data paths as the newer
-                    pipeline took over.
+                    I delivered Leaf and MyJohnDeere Direct across database,
+                    ETL, API, and frontend layers, and I migrated the main
+                    Python environment from Conda to Pixi while stabilizing
+                    older farm data paths.
                   </p>
                 </div>
               </article>
@@ -191,10 +202,7 @@
           <div class="route-body">
             <p class="stop-kicker">Selected Projects</p>
             <h2>Supporting project work</h2>
-            <p>
-              Outside my main role, I have built smaller products that show the
-              same interest in location, operations, and usable data systems.
-            </p>
+            <p>Outside my main role, I have built a few smaller products that support the same interest in location, operations, and usable data.</p>
             <div class="venture-list">
               <article class="venture-item">
                 <div class="venture-copy">
@@ -261,7 +269,7 @@
                     <span class="history-meta">Dec 2020 - Present</span>
                     <div>
                       <h3>Beck's Hybrids</h3>
-                      <p>Senior Geospatial Developer focused on farm data, geospatial processing, integrations, and cross-repo delivery.</p>
+                      <p>Senior Software Engineer focused on farm data, web APIs, async processing, geospatial systems, and cross-repo delivery.</p>
                     </div>
                   </li>
                   <li>
@@ -272,7 +280,7 @@
                     </div>
                   </li>
                   <li>
-                    <span class="history-meta">Current</span>
+                    <span class="history-meta">Ongoing</span>
                     <div>
                       <h3>Private real estate investing</h3>
                       <p>Operate a private real estate investment business alongside my engineering work.</p>
