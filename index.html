@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Camden Lowrance is a senior software engineer building production farm data, web API, async processing, and geospatial systems."
+      content="Camden Lowrance is a senior software engineer mapping the physical world and navigating the agentic future of AI-first software."
     />
     <meta name="author" content="Camden Lowrance" />
     <title>Camden Lowrance | Senior Software Engineer</title>
     <meta property="og:title" content="Camden Lowrance | Senior Software Engineer" />
     <meta
       property="og:description"
-      content="Building production farm data, web API, async processing, and geospatial systems."
+      content="Mapping the physical world and charting new territory in agent-driven, AI-first workflows."
     />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://camden-lowrance.github.io/" />
@@ -27,316 +27,237 @@
     />
     <meta
       name="twitter:description"
-      content="Building production farm data, web API, async processing, and geospatial systems."
+      content="Mapping the physical world and charting new territory in agent-driven, AI-first workflows."
     />
     <meta
       name="twitter:image"
       content="https://camden-lowrance.github.io/img/social-preview.svg"
     />
     <link rel="icon" type="image/svg+xml" href="img/favicon.svg" />
-    <link rel="stylesheet" href="css/resume.css?v=20260411-route-map-4" />
+    <link rel="stylesheet" href="css/style.css?v=20260413-copy-polish" />
   </head>
   <body>
-    <header class="site-header">
-      <a class="brand" href="#top">Camden Lowrance</a>
-      <p class="header-note">Indianapolis, IN / open to remote</p>
-    </header>
+    <div class="container">
+      <div class="sidebar">
+        <header class="site-header">
+          <a class="brand" href="#origin">Camden Lowrance</a>
+          <p class="header-note">West Lafayette, IN / open to remote</p>
+        </header>
 
-    <main class="map-page" id="top">
-      <aside class="route-legend" aria-label="Map legend">
-        <p class="legend-kicker">Map Legend</p>
-        <nav class="legend-nav">
-          <a href="#origin"><span class="legend-index">00</span><span>Origin</span></a>
-          <a href="#becks"><span class="legend-index">01</span><span>Beck's</span></a>
-          <a href="#work"><span class="legend-index">02</span><span>Work</span></a>
-          <a href="#projects"><span class="legend-index">03</span><span>Projects</span></a>
-          <a href="#background"><span class="legend-index">04</span><span>Background</span></a>
-          <a href="#contact"><span class="legend-index">05</span><span>Contact</span></a>
-        </nav>
-        <p class="legend-note">Production software across farm data, web APIs, async processing, and geospatial systems.</p>
-      </aside>
-
-      <div class="route-flow">
-        <section class="route-origin" id="origin">
-          <div class="route-pin route-pin-origin" aria-hidden="true">00</div>
-          <p class="stop-kicker">Origin</p>
-          <h1>Turning location-based data into operational clarity.</h1>
-          <p class="lede">
-            I build production software for farm data, web APIs,
-            asynchronous processing, and geospatial workflows. Most of that
-            work happens at Beck's Hybrids, where I build and operate core
-            systems.
-          </p>
-          <p class="lede">
-            I work across synchronous Flask APIs, Celery workers, large farm
-            data pipelines, and the storage and processing layers that keep
-            spatial data usable at scale.
-          </p>
-          <ul class="proof-list">
-            <li>
-              <span class="proof-value">&gt;500 billion</span>
-              <span class="proof-label">rows of production farm data processed</span>
-            </li>
-            <li>
-              <span class="proof-value">&gt;1,500</span>
-              <span class="proof-label">pull requests across backend, API, database, and UI repos</span>
-            </li>
-            <li>
-              <span class="proof-value">multiple live apps</span>
-              <span class="proof-label">production apps built outside my main role</span>
-            </li>
-          </ul>
-          <div class="stack-block">
-            <p class="subhead">Core Stack</p>
-            <ul class="stack-list">
-              <li>Python</li>
-              <li>GeoPandas</li>
-              <li>Shapely</li>
-              <li>GeoParquet</li>
-              <li>DuckDB</li>
-              <li>Dask</li>
-              <li>SQL Server</li>
-              <li>S3</li>
-              <li>Celery</li>
-              <li>Flask</li>
-              <li>Kubernetes</li>
-              <li>FastAPI</li>
-              <li>React</li>
-            </ul>
-          </div>
-        </section>
-
-        <section class="route-stop" id="becks">
-          <div class="route-pin" aria-hidden="true">01</div>
-          <div class="route-body">
-            <p class="stop-kicker">Current Role</p>
-            <h2>Beck's Hybrids</h2>
-            <p>
-              I am a Senior Software Engineer at Beck's. I built the current
-              farm data pipeline from scratch and I still maintain it day to day.
-            </p>
-            <p>
-              It replaced Windows servers and proprietary ArcGIS tooling with
-              open-source Python services built for Kubernetes-native,
-              cloud-native operation.
-            </p>
-            <p>
-              I maintain both synchronous web APIs and asynchronous worker
-              systems for farm data and geospatial processing, including Flask
-              HTTP services, Celery jobs, and the related data delivery
-              endpoints.
-            </p>
-            <p>
-              If the farm data is wrong or delayed, the rest of the product has
-              nothing solid to build on. This is core infrastructure for the
-              farm record inside FARMserver, including harvest, planting,
-              application, tillage, and other machine-generated field
-              operations.
-            </p>
-            <ul class="detail-list">
-              <li>farm data ingestion and ETL behavior</li>
-              <li>synchronous Flask API services and geospatial data delivery</li>
-              <li>asynchronous Celery workers and long-running processing</li>
-              <li>storage formats, reliability, and modernization of older paths</li>
-            </ul>
-          </div>
-        </section>
-
-        <section class="route-stop" id="work">
-          <div class="route-pin" aria-hidden="true">02</div>
-          <div class="route-body">
-            <p class="stop-kicker">Work Threads</p>
-            <h2>Recent delivery areas</h2>
-            <div class="thread-list">
-              <article class="thread-item">
-                <p class="thread-label">Core pipeline</p>
-                <div>
-                  <h3>Production ownership</h3>
-                  <p>
-                    I own the production path from inbound files through
-                    processing, storage, cleanup, and issue response.
-                  </p>
-                </div>
-              </article>
-              <article class="thread-item">
-                <p class="thread-label">APIs and workers</p>
-                <div>
-                  <h3>Flask and Celery services</h3>
-                  <p>
-                    I maintain synchronous HTTP APIs and asynchronous job
-                    pipelines for farm and geospatial data, including API
-                    endpoints, middleware, long-running jobs, and data delivery
-                    services.
-                  </p>
-                </div>
-              </article>
-              <article class="thread-item">
-                <p class="thread-label">Scale and formats</p>
-                <div>
-                  <h3>Large geospatial data workflows</h3>
-                  <p>
-                    The stack handles high-volume farm data using GeoParquet,
-                    Parquet, cloud optimized GeoTIFFs, GeoJSON, shapefiles,
-                    DuckDB, Dask, and S3-backed storage patterns.
-                  </p>
-                </div>
-              </article>
-              <article class="thread-item">
-                <p class="thread-label">Integrations and platform</p>
-                <div>
-                  <h3>Cross-repo delivery</h3>
-                  <p>
-                    I delivered Leaf and MyJohnDeere Direct across database,
-                    ETL, API, and frontend layers, and I migrated the main
-                    Python environment from Conda to Pixi while stabilizing
-                    older farm data paths.
-                  </p>
-                </div>
-              </article>
-            </div>
-          </div>
-        </section>
-
-        <section class="route-stop" id="projects">
-          <div class="route-pin" aria-hidden="true">03</div>
-          <div class="route-body">
-            <p class="stop-kicker">Selected Projects</p>
-            <h2>Supporting project work</h2>
-            <p>Outside my main role, I have built a few smaller products that support the same interest in location, operations, and usable data.</p>
-            <div class="venture-list">
-              <article class="venture-item">
-                <div class="venture-copy">
-                  <p class="thread-label">Agriculture</p>
-                  <h3>EZZone</h3>
-                  <p>
-                    EZZone turns field and land data into management zones for
-                    agricultural decisions.
-                  </p>
-                  <p class="venture-link">
-                    <a href="https://ezzone-production.up.railway.app/" target="_blank" rel="noreferrer">ezzone-production.up.railway.app</a>
-                  </p>
-                </div>
-                <a
-                  class="venture-shot"
-                  href="https://ezzone-production.up.railway.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img src="img/ezzone.png" alt="Screenshot of the EZZone interface showing a field map with created management zones and export controls." />
-                </a>
-              </article>
-
-              <article class="venture-item venture-item-text">
-                <div class="venture-copy">
-                  <p class="thread-label">Real estate</p>
-                  <h3>REI Prospector</h3>
-                  <p>
-                    REI Prospector is a map-driven property analysis tool for
-                    investor workflows, including search, filtering, favorites,
-                    and bid tracking.
-                  </p>
-                  <p class="venture-link">
-                    <a href="https://reiprospector-production.up.railway.app/demo-welcome" target="_blank" rel="noreferrer">reiprospector-production.up.railway.app</a>
-                  </p>
-                </div>
-              </article>
-
-              <article class="venture-item venture-item-text">
-                <div class="venture-copy">
-                  <p class="thread-label">Operator context</p>
-                  <h3>Private real estate investing</h3>
-                  <p>
-                    I also run a private real estate investment business. That
-                    gives me an operator's view of acquisition, underwriting,
-                    redevelopment, and the software needed to support real work.
-                  </p>
-                </div>
-              </article>
-            </div>
-          </div>
-        </section>
-
-        <section class="route-stop" id="background">
-          <div class="route-pin" aria-hidden="true">04</div>
-          <div class="route-body route-body-wide">
-            <p class="stop-kicker">Background</p>
-            <h2>Work history and education</h2>
-            <div class="history-grid">
-              <div>
-                <p class="subhead">Experience</p>
-                <ol class="history-list">
-                  <li>
-                    <span class="history-meta">Dec 2020 - Present</span>
-                    <div>
-                      <h3>Beck's Hybrids</h3>
-                      <p>Senior Software Engineer focused on farm data, web APIs, async processing, geospatial systems, and cross-repo delivery.</p>
-                    </div>
-                  </li>
-                  <li>
-                    <span class="history-meta">Jan 2015 - Dec 2020</span>
-                    <div>
-                      <h3>Sharpe Technology Solutions</h3>
-                      <p>Founder &amp; Lead Developer delivering custom data, mapping, and web application work for clients across government, nonprofit, education, and museums.</p>
-                    </div>
-                  </li>
-                  <li>
-                    <span class="history-meta">Ongoing</span>
-                    <div>
-                      <h3>Private real estate investing</h3>
-                      <p>Operate a private real estate investment business alongside my engineering work.</p>
-                    </div>
-                  </li>
-                  <li>
-                    <span class="history-meta">2013 - 2014</span>
-                    <div>
-                      <h3>University of Georgia</h3>
-                      <p>Graduate Research Assistant building irrigation and sensor-driven agricultural software across web, database, mapping, and field systems.</p>
-                    </div>
-                  </li>
-                </ol>
-              </div>
-              <div>
-                <p class="subhead">Education</p>
-                <ol class="history-list history-list-education">
-                  <li>
-                    <span class="history-meta">2012 - 2014</span>
-                    <div>
-                      <h3>University of Georgia</h3>
-                      <p>M.S., Crop and Soil Science</p>
-                      <p>Certificate in International Agriculture</p>
-                    </div>
-                  </li>
-                  <li>
-                    <span class="history-meta">2008 - 2012</span>
-                    <div>
-                      <h3>University of Georgia</h3>
-                      <p>B.S., Geography</p>
-                      <p>Emphasis in Geographic Information Systems</p>
-                    </div>
-                  </li>
-                </ol>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section class="route-stop route-stop-end" id="contact">
-          <div class="route-pin route-pin-end" aria-hidden="true">05</div>
-          <div class="route-body">
-            <p class="stop-kicker">Destination</p>
-            <h2>Professional contact</h2>
-            <p>
-              Indianapolis, IN. Open to remote work. Current resume available by
-              email.
-            </p>
-            <ul class="contact-list">
-              <li><a href="mailto:camdenlowrance@gmail.com">camdenlowrance@gmail.com</a></li>
-              <li><a href="https://github.com/camden-lowrance" target="_blank" rel="noreferrer">github.com/camden-lowrance</a></li>
-              <li><a href="https://www.linkedin.com/in/camden-lowrance/" target="_blank" rel="noreferrer">linkedin.com/in/camden-lowrance</a></li>
-            </ul>
-          </div>
-        </section>
+        <aside class="route-legend" aria-label="Map legend">
+          <p class="legend-kicker">Map Legend</p>
+          <nav class="legend-nav">
+            <a href="#origin"><span class="legend-index">00</span><span>The Starting Point</span></a>
+            <a href="#becks"><span class="legend-index">01</span><span>Current Foundation</span></a>
+            <a href="#work"><span class="legend-index">02</span><span>Future Trajectory</span></a>
+            <a href="#projects"><span class="legend-index">03</span><span>Applied Context</span></a>
+            <a href="#background"><span class="legend-index">04</span><span>Background</span></a>
+            <a href="#contact"><span class="legend-index">05</span><span>Destination</span></a>
+          </nav>
+          <p class="legend-note">Building robust infrastructure today to enable the autonomous systems of tomorrow.</p>
+        </aside>
       </div>
-    </main>
+
+      <main class="map-page" id="top">
+        <div class="route-flow">
+          <section class="route-stop" id="origin">
+            <div class="route-pin route-pin-origin" aria-hidden="true">00</div>
+            <div class="route-body">
+              <p class="stop-kicker">The Starting Point</p>
+              <h1>Mapping the physical world.<br/>Navigating the agentic future.</h1>
+              <p class="lede">
+                I build the infrastructure that translates the physical world into operational reality. For years, my focus has been on taming massive geospatial datasets—ensuring that the scale of reality aligns perfectly in software.
+              </p>
+              <p class="lede">
+                Now, I'm charting new territory. The future of software isn't just about parallel processing and fast storage; it's about evolving pipelines into intelligent, autonomous systems. I am currently focused on pioneering agentic-first workflows that can independently reason over complex spatial data.
+              </p>
+              
+              <ul class="proof-list">
+                <li>
+                  <span class="proof-value">&gt;500 Billion</span>
+                  <span class="proof-label">Rows of spatial telemetry reliably processed</span>
+                </li>
+                <li>
+                  <span class="proof-value">Agentic Systems</span>
+                  <span class="proof-label">Designing workflows capable of reasoning over data</span>
+                </li>
+                <li>
+                  <span class="proof-value">Production Scale</span>
+                  <span class="proof-label">Building systems that can handle mission-critical uptime</span>
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <section class="route-stop" id="becks">
+            <div class="route-pin" aria-hidden="true">01</div>
+            <div class="route-body">
+              <p class="stop-kicker">Current Foundation</p>
+              <h2>Architecting the Core</h2>
+              <p>
+                At Beck's, I built the modern farm data pipeline from scratch, replacing fragile, monolithic server architectures with resilient, cloud-native services.
+              </p>
+              <p>
+                This system acts as the absolute source of truth for the farm record. The software operates precisely at the chaotic intersection of noisy field hardware and structured data models. Without it, the core product goes entirely dark.
+              </p>
+              <p>
+                Operating at this scale means relentlessly managing both high-throughput synchronous APIs and deeply compute-intensive asynchronous workers. Engineering this level of unflinching reliability has been the necessary prerequisite for introducing next-generation, agent-driven logic to the pipeline.
+              </p>
+            </div>
+          </section>
+
+          <section class="route-stop" id="work">
+            <div class="route-pin" aria-hidden="true">02</div>
+            <div class="route-body">
+              <p class="stop-kicker">Future Trajectory</p>
+              <h2>Charting AI-First Workflows</h2>
+              <p>The transition from manual scripting to autonomous software requires deep architectural shifts. Here is where my focus currently drives:</p>
+              <div class="thread-list">
+                <article class="thread-item">
+                  <p class="thread-label">Agentic Orchestration</p>
+                  <div>
+                    <h3>Autonomous Reasoners</h3>
+                    <p>
+                      I am designing systems where intelligent models don't just summarize data, but act over it. This involves engineering agents that can autonomously navigate operational constraints, logically synthesize field telemetry, and orchestrate underlying services without human intervention.
+                    </p>
+                  </div>
+                </article>
+                <article class="thread-item">
+                  <p class="thread-label">Resilient Infrastructure</p>
+                  <div>
+                    <h3>Bulletproof Foundations</h3>
+                    <p>
+                      You cannot build smart systems on brittle data. I continue to drive the core computational paths from raw, noisy inbound streams to clean, persistent spatial models. Uptime and absolute correctness are what allow agentic systems to succeed.
+                    </p>
+                  </div>
+                </article>
+                <article class="thread-item">
+                  <p class="thread-label">Distributed Architecture</p>
+                  <div>
+                    <h3>Decoupled Scaling</h3>
+                    <p>
+                      I maintain the delicate balance between synchronous interaction layers and heavy async execution. True scale—and the computational overhead required by modern AI tools—requires specialized workers that operate asynchronously to keep the user experience seamless.
+                    </p>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </section>
+
+          <section class="route-stop" id="projects">
+            <div class="route-pin" aria-hidden="true">03</div>
+            <div class="route-body">
+              <p class="stop-kicker">Applied Context</p>
+              <h2>Dogfooding the Architecture</h2>
+              <p>I believe the best engineers operate as close to the physical domain as possible. Outside of core infrastructure, I construct platforms that allow me to personally act on the pipelines I build.</p>
+              
+              <div class="venture-list">
+                <a href="https://ezzone-production.up.railway.app/" class="venture-item" target="_blank" rel="noreferrer">
+                  <div class="venture-copy">
+                    <p class="thread-label">Agricultural Analysis</p>
+                    <h3>EZZone</h3>
+                    <p>
+                      Synthesizes raw agronomic metrics into precise management zones, demonstrating how complex spatial modeling directly influences physical decisions on the ground.
+                    </p>
+                    <p class="venture-link">Launch the zone generation engine</p>
+                  </div>
+                  <div class="venture-shot">
+                    <img src="img/ezzone_new.jpg" alt="Screenshot of EZZone showing field maps and management zones." loading="lazy" />
+                  </div>
+                </a>
+
+                <a href="https://reiprospector-production.up.railway.app/demo-welcome" class="venture-item" target="_blank" rel="noreferrer">
+                  <div class="venture-copy">
+                    <p class="thread-label">Real Estate Data</p>
+                    <h3>REI Prospector</h3>
+                    <p>
+                      An automated property analysis engine leveraging deep spatial filtering and continuous market tracking to streamline investment underwriting.
+                    </p>
+                    <p class="venture-link">Query the live investment map</p>
+                  </div>
+                  <div class="venture-shot">
+                    <img src="img/rei_new.jpg" alt="Screenshot of REI Prospector property analysis." loading="lazy" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </section>
+
+          <section class="route-stop" id="background">
+            <div class="route-pin" aria-hidden="true">04</div>
+            <div class="route-body route-body-wide">
+              <p class="stop-kicker">Background</p>
+              <h2>Work History & Education</h2>
+              <div class="history-grid">
+                <div>
+                  <p class="subhead">Experience</p>
+                  <ol class="history-list">
+                    <li>
+                      <span class="history-meta">Dec 2020 - Present</span>
+                       <div>
+                        <h3>Beck's Hybrids</h3>
+                        <p>Senior Software Engineer bridging cloud-scale data infrastructure and the next generation of intelligent, API-driven systems.</p>
+                      </div>
+                    </li>
+                    <li>
+                      <span class="history-meta">Jan 2015 - Dec 2020</span>
+                      <div>
+                        <h3>Sharpe Technology Solutions</h3>
+                        <p>Founder &amp; Lead Developer. Engineered deep spatial data flows and web platforms for government, nonprofit, and educational sectors.</p>
+                      </div>
+                    </li>
+                    <li>
+                      <span class="history-meta">Ongoing</span>
+                      <div>
+                        <h3>Private real estate investing</h3>
+                        <p>An operator's approach to local property investments, keeping my technical perspectives tied to tangible, real-world economics.</p>
+                      </div>
+                    </li>
+                  </ol>
+                </div>
+                <div>
+                  <p class="subhead">Education</p>
+                  <ol class="history-list history-list-education">
+                    <li>
+                      <span class="history-meta">University of Georgia | 2012 - 2014</span>
+                      <div>
+                        <h3>M.S., Crop and Soil Science</h3>
+                        <p>Certificate in International Agriculture. Specializing in irrigation and sensor-driven geospatial tech.</p>
+                      </div>
+                    </li>
+                    <li>
+                      <span class="history-meta">University of Georgia | 2008 - 2012</span>
+                      <div>
+                        <h3>B.S., Geography</h3>
+                        <p>Emphasis in Geographic Information Systems (GIS).</p>
+                      </div>
+                    </li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="route-stop route-stop-end" id="contact">
+            <div class="route-pin route-pin-end" aria-hidden="true">05</div>
+            <div class="route-body">
+              <p class="stop-kicker">Destination</p>
+              <h2>Charting What's Next</h2>
+              <p>
+                Based in West Lafayette, IN. Completely open to remote collaboration. 
+              </p>
+              <p style="margin-bottom: 2rem;">
+                I am actively seeking conversations with forward-thinking teams pushing the boundaries of autonomous software and agentic workflows. If you're building in the future of AI-first systems, let's talk.
+              </p>
+              <ul class="contact-list">
+                <li><a href="mailto:camdenlowrance@gmail.com">camdenlowrance@gmail.com</a></li>
+                <li><a href="https://github.com/camden-lowrance" target="_blank" rel="noreferrer">github.com/camden-lowrance</a></li>
+                <li><a href="https://www.linkedin.com/in/camden-lowrance/" target="_blank" rel="noreferrer">linkedin.com/in/camden-lowrance</a></li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </main>
+    </div>
   </body>
 </html>
